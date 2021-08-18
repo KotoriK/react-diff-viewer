@@ -2,7 +2,7 @@ import { shallow } from 'enzyme';
 import * as React from 'react';
 import * as expect from 'expect';
 
-import DiffViewer from '../lib/index';
+import DiffViewer from '../src/index';
 
 const oldCode = `
 const a = 123
